@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
-  veggies.map do |veggies|
+  veggies.map do |veggies| #or veggies.collect do |veggies| 
     p veggies.capitalize + "!"
   end
 
